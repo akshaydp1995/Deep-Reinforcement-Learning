@@ -12,8 +12,11 @@
 ## The reinforcement learning problem here is the agent (player) who is trying to maximize his rewards (wins)
 
 The agent is the player
+
 The environment is OpenAI's Gym (Blackjack-v0)
+
 The state is a tuple of 3 values: (Sum of players cards, the value of the dealer's showing card, player's usuable ace binary)
+
 The reward is -1 if the player loses, 0 if draw, 1 if the player wins 
 
 In the python implementation of this problem, this is modelled as a Monte-Carlo problem.
